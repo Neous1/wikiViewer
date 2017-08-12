@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+li{
+    /* background-color: pink; */
+    font-size: 18px;
+    padding: 20px;
+}
