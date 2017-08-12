@@ -12,11 +12,10 @@ $(document).ready(function () {
             console.log(data)
 //iterate thru search result
             for (var i = 0; i < data[1].length; i++) {
-                // console.log(data[1][i])
-                // console.log(data[3][i])
-// $("#results").html(" ");
-                $("#results").append("<li data-link= '" + data[3][i]+" '>" + data[1][i] + "<br>" + data[2][i]+"</li>")
-
+                // $("#results").append("<li data-link= '" + data[3][i]+" '>" + data[1][i] + "<br>" + data[2][i]+"</li>")
+                // $("#results").append("<li data-link= '" + data[3][i]+" '>" + data[1][i] + "<br>" + data[2][i]+"</li>")
+                $("#results").append("<li>"+data[1][i]+"<br>"+data[2][i]+"<br>"+"<br>"+data[3][i]+"</li>")
+// $(li).css('box-shadow', '10px 10px 5px #888');
             }
         })
     })
